@@ -1,0 +1,33 @@
+/* The following styles are needed for the layout/scrollbars to work properly */
+body {
+  overflow: hidden;
+}
+
+.app {
+  height: 100vh;
+}
+
+.app, .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.app, .grid, .column {
+  overflow: auto;
+}
+
+.column {
+  flex: 1;
+}
+
+.grid {
+  flex-wrap: nowrap !important;
+  flex: 1;
+}
+
+/* Override the default button properties to make text white and not all caps */
+Button.nav-btn {
+  color: inherit;
+  text-transform: none;
+  gap: 8px;
+}

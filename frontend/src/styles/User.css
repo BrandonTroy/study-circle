@@ -1,0 +1,4 @@
+/* Removes gap between name and username that appeared in the popover */
+.css-tlelie-MuiListItemText-root {
+  flex: none !important;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Study Circle",
+    "description": "Empowering Collaborative Learning ",
+    "start_url": "/",
+    "scope": "/",
+    "lang": "en-US",
+    "theme_color": "#1976d2",
+    "background_color": "#fafafa",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "./favicon.svg",
+        "sizes": "640x640"
+        
+      }
+    ]
+  }
