@@ -5,14 +5,7 @@ const circlesRouter = require('./routes/circles');
 const chatsRouter = require('./routes/chats');
 const usersRouter = require('./routes/users');
 const websocketRouter = require('./routes/webSocketRoutes').router;
-const { TokenMiddleware} = require('./utils/tokenMiddleware');
-
-// Wait 30 seconds before populating the database with course data
-if (process.env.POPULATE_COURSE_DATA) {
-  setTimeout(() => {
-    require('../data/populateDatabase');
-  }, 5000);
-}
+const { TokenMiddleware } = require('./utils/tokenMiddleware');
 
 // Define the port to run the server on
 const PORT = 3000;
